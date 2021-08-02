@@ -7,7 +7,7 @@ import static io.restassured.http.ContentType.JSON;
 import static org.hamcrest.core.Is.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class tests {
+public class ApiTest {
 
     int userID = 3;
     String baseURL = "https://reqres.in",
